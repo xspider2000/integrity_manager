@@ -1,0 +1,29 @@
+        body { overflow:hidden }
+        #loading {
+            border: 1px solid #ccc;
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            padding: 2px;
+            z-index: 20001;
+            height: auto;
+		}
+        #loading a {
+            color: #225588;
+        }
+        #loading .loadingIndicator {
+            background: white;
+            font: bold 13px tahoma, arial, helvetica;
+            padding: 10px;
+            margin: 0;
+			height: auto;
+            color: #444;
+        }
+
+        #loadingMsg {
+            font: normal 10px arial, tahoma, sans-serif;
+        }
+
+        #loadingWait {
+            font: normal 10px arial, tahoma, sans-serif;
+        }
